@@ -1,0 +1,90 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #121212;
+  color: #fafafa;
+}
+
+a {
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.active {
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+label span {
+  font-weight: bold;
+  margin-bottom: 1em;
+  color: #aaa;
+  font-size: 1em;
+}
+
+input {
+  background-color: #5f5c5c;
+  color: #aaa;
+  border: 1px solid #555;
+  border-radius: 3px;
+  padding: 10px 8px;
+  outline: none;
+  margin-bottom: 0.6em;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+.btn,
+button,
+input[type='submit'] {
+  background-color: #37abf8;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  padding: 1px 6px;
+  font-weight: bold;
+  opacity: 0.9;
+  font-size: 1em;
+}
+
+input[type='submit'] {
+  margin-top: 1em;
+}
+
+input:disabled {
+  cursor: not-allowed;
+  background-color: #121212;
+}
+
+button:hover,
+input[type='submit']:hover {
+  opacity: 1.2;
+}
+
+.cancel-btn {
+  background-color: #ccc;
+}
+
+.hide {
+  display: none;
+}
+/* --------------------------------------------- */
